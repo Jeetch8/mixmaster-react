@@ -1,4 +1,4 @@
-import Wrapper from "../mixmaster/src/assets/wrappers/ErrorPage";
+import Wrapper from "../assets/wrappers/ErrorPage";
 import { Link, useRouteError } from "react-router-dom";
 import img from "../assets/not-found.svg";
 const Error = () => {
