@@ -9,11 +9,11 @@ import {
   Newsletter,
   Cocktail,
   SinglePageError,
-} from "../../temp";
+} from "./pages";
 
 import { loader as landingLoader } from "./pages/Landing";
-import { loader as singleCocktailLoader } from "../../temp/Cocktail";
-import { action as newsletterAction } from "../../temp/Newsletter";
+import { loader as singleCocktailLoader } from "./pages/Cocktail";
+import { action as newsletterAction } from "./pages/Newsletter";
 
 const queryClient = new QueryClient({
   defaultOptions: {
